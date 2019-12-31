@@ -6,10 +6,6 @@ module.exports = {
   ],
   rules: {
 		...require('./rules.json'),
-    'order/properties-order': [
-      {
-        properties: require('./sorting.json')
-      }
-    ]
+		'order/properties-order': require('./sorting.json')
   }
 };
