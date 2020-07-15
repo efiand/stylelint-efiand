@@ -35,10 +35,6 @@
 			"font-display",
 			"font-family",
 			"src"
-		],
-		"keyframes": [
-			"0%",
-			"100%"
 		]
 	},
 	"at-rule-semicolon-newline-after": "always",
