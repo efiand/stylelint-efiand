@@ -37,8 +37,8 @@
 			"src"
 		],
 		"keyframes": [
-			"100%",
-			"0%"
+			"0%",
+			"100%"
 		]
 	},
 	"at-rule-semicolon-newline-after": "always",
@@ -169,7 +169,6 @@
 	"media-query-list-comma-space-before": "never",
 	"no-duplicate-at-import-rules": true,
 	"no-duplicate-selectors": true,
-	"no-empty-first-line": true,
 	"no-empty-source": true,
 	"no-eol-whitespace": true,
 	"no-extra-semicolons": true,
@@ -215,7 +214,14 @@
 	"selector-max-pseudo-class": 2,
 	"selector-max-specificity": "0,3,1",
 	"selector-max-universal": 0,
-	"selector-no-qualifying-type": true,
+	"selector-no-qualifying-type": [
+		true,
+		{
+			"ignore": [
+				"attribute"
+			]
+		}
+	],
 	"selector-no-vendor-prefix": true,
 	"selector-pseudo-class-case": "lower",
 	"selector-pseudo-class-no-unknown": true,
