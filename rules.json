@@ -165,7 +165,6 @@
 	"media-query-list-comma-space-before": "never",
 	"no-duplicate-at-import-rules": true,
 	"no-duplicate-selectors": true,
-	"no-empty-source": true,
 	"no-eol-whitespace": true,
 	"no-extra-semicolons": true,
 	"no-missing-end-of-source-newline": true,
@@ -208,13 +207,14 @@
 	"selector-max-empty-lines": 0,
 	"selector-max-id": 0,
 	"selector-max-pseudo-class": 2,
-	"selector-max-specificity": "0,3,1",
+	"selector-max-specificity": "0,4,1",
 	"selector-max-universal": 0,
 	"selector-no-qualifying-type": [
 		true,
 		{
 			"ignore": [
-				"attribute"
+				"attribute",
+				"class"
 			]
 		}
 	],
