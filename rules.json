@@ -1,5 +1,5 @@
 {
-	"at-rule-blacklist": [
+	"at-rule-disallowed-list": [
 		"extend"
 	],
 	"at-rule-empty-line-before": [
@@ -28,7 +28,7 @@
 		}
 	],
 	"at-rule-no-vendor-prefix": true,
-	"at-rule-property-requirelist": {
+	"at-rule-property-required-list": {
 		"font-face": [
 			"font-weight",
 			"font-style",
@@ -96,7 +96,7 @@
 	"declaration-colon-space-after": "always",
 	"declaration-colon-space-before": "never",
 	"declaration-empty-line-before": "never",
-	"declaration-property-unit-blacklist": {
+	"declaration-property-unit-disallowed-list": {
 		"/.*/": [
 			"pt",
 			"pc",
@@ -104,7 +104,7 @@
 			"/^v/"
 		]
 	},
-	"declaration-property-value-blacklist": {
+	"declaration-property-value-disallowed-list": {
 		"/^animation/": [
 			"ease"
 		],
@@ -128,7 +128,7 @@
 	"function-parentheses-newline-inside": "always-multi-line",
 	"function-parentheses-space-inside": "never",
 	"function-url-quotes": "always",
-	"function-url-scheme-blacklist": [
+	"function-url-scheme-disallowed-list": [
 		"/^\\./",
 		"/^\\.\\.\\/\\.\\./",
 		"ftp"
@@ -232,7 +232,7 @@
 	"string-quotes": "double",
 	"time-min-milliseconds": 100,
 	"unicode-bom": "never",
-	"unit-blacklist": [
+	"unit-disallowed-list": [
 		"ex",
 		"pt",
 		"pc",

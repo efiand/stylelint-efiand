@@ -1,9 +1,9 @@
 {
   "name": "stylelint-efiand",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "license": "ISC",
   "repository": "git@github.com:efiand/stylelint-efiand.git",
   "dependencies": {
-    "stylelint-order": "^4.1.0"
+    "stylelint-order": "4.1.0"
   }
 }
