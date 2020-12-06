@@ -1,6 +1,6 @@
 {
   "name": "stylelint-efiand",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "license": "ISC",
   "repository": "git@github.com:efiand/stylelint-efiand.git",
   "dependencies": {

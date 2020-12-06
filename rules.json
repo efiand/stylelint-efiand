@@ -134,7 +134,6 @@
 		"ftp"
 	],
 	"function-whitespace-after": "always",
-	"indentation": "tab",
 	"keyframe-declaration-no-important": true,
 	"length-zero-no-unit": true,
 	"linebreaks": "unix",
